@@ -11,6 +11,7 @@ function minValue(str : string) {
         's': [7, 'seven'],
         'i': [9, 'nine']
     };
+
     var freq = Array(26).fill(0);
 
     for (let i = 0; i < str.length; i++) {
@@ -64,6 +65,7 @@ function minValue(str : string) {
     }
     return parseInt(result);
 }
+
 var str = "otwtheerzeorzero";
 console.log(minValue(str));
 
